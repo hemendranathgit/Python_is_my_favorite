@@ -111,3 +111,14 @@
 # else:
 #     print("No")
 
+def triangle(n):
+    for i in range(n):
+        # space
+        for j in range(n):
+            print(" ",end="")
+        for k in range(2*i+1):
+            print("*",end="")
+        for l in range(n):
+            print(" ",end="")
+        print()
+triangle(5)
